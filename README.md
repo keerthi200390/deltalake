@@ -5,9 +5,10 @@
 
 
 ```
-function test() {
-  console.log("notice the blank line before this function?");
-}
+dbutils.fs.ls("/FileStore")
+[FileInfo(path='dbfs:/FileStore/blobstorage.png', name='blobstorage.png', size=75392, modificationTime=1715372061000),
+ FileInfo(path='dbfs:/FileStore/issue_description.png', name='issue_description.png', size=43191, modificationTime=1715371562000),
+ FileInfo(path='dbfs:/FileStore/tables/', name='tables/', size=0, modificationTime=1715371552000)]
 ```
 
 
